@@ -1,0 +1,11 @@
+D:\Paladin\bin\Debug\netcoreapp3.0\Paladin.exe
+D:\Paladin\bin\Debug\netcoreapp3.0\Paladin.deps.json
+D:\Paladin\bin\Debug\netcoreapp3.0\Paladin.runtimeconfig.json
+D:\Paladin\bin\Debug\netcoreapp3.0\Paladin.runtimeconfig.dev.json
+D:\Paladin\bin\Debug\netcoreapp3.0\Paladin.dll
+D:\Paladin\bin\Debug\netcoreapp3.0\Paladin.pdb
+D:\Paladin\obj\Debug\netcoreapp3.0\Paladin.csprojAssemblyReference.cache
+D:\Paladin\obj\Debug\netcoreapp3.0\Paladin.AssemblyInfoInputs.cache
+D:\Paladin\obj\Debug\netcoreapp3.0\Paladin.AssemblyInfo.cs
+D:\Paladin\obj\Debug\netcoreapp3.0\Paladin.dll
+D:\Paladin\obj\Debug\netcoreapp3.0\Paladin.pdb

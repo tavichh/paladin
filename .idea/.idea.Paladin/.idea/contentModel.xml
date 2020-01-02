@@ -16,6 +16,7 @@
       <e p="Paladin.csproj" t="IncludeRecursive" />
       <e p="Paladin.sln" t="IncludeFlat" />
       <e p="Program.cs" t="Include" />
+      <e p="README.md" t="Include" />
     </e>
   </component>
 </project>
