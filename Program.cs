@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Net;
 
 namespace Paladin
 {
@@ -30,17 +32,28 @@ namespace Paladin
             Console.Write("Please enter the URL to the manifest> ");
             manifest = Console.ReadLine();
             Console.WriteLine($"You have entered {manifest}, is this correct? (Y/N)");
-            var accept = Console.ReadKey();
+            var key = Console.ReadKey();
 
-            if (accept.Key == ConsoleKey.Y)
-                DownloadManifestFile();
-            if (accept.Key == ConsoleKey.N)
-                InitializePaladin();
+            switch (key.Key) {
+                case ConsoleKey.Y:
+                    DownloadManifestFile();
+                    break;
+                case ConsoleKey.Enter:
+                    DownloadManifestFile();
+                    break;
+                case ConsoleKey.N:
+                    InitializePaladin();
+                    break;
+            }
         }
 
         /// <summary>
         /// Downloads the manifest file.
         /// </summary>
-        static void DownloadManifestFile() { }
+        static void DownloadManifestFile()
+        {
+            using var client = new WebClient();
+            client.DownloadFile(manifest, ($"Paladin.manifest"));
+        }
     }
 }
