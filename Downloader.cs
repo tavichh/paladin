@@ -7,7 +7,7 @@ namespace Paladin
         public static void DownloadUrlToFile(string url)
         {
             using var client = new WebClient();
-            Program.Print("Downloading the manifest file...",MessageTypes.Info);
+            Paladin.Print("Downloading the manifest file...",MessageTypes.Info);
             client.DownloadFile(url, ($"Paladin.manifest"));
         }
 

@@ -9,13 +9,11 @@
       <change afterPath="$PROJECT_DIR$/../Rusty RPG/.idea/.idea.Rusty RPG/.idea/indexLayout.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Rusty RPG/.idea/.idea.Rusty RPG/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change afterPath="$APPLICATION_HOME_DIR$/plugins/spy-js/server/node_modules/multi-stage-sourcemap/.idea/multi-stage-sourcemap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paladin/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paladin/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paladin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paladin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paladin.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Paladin.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Downloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Downloader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/Paladin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/Paladin.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/Paladin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/Paladin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/paladin.manifest" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
@@ -30,14 +28,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MessageTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Paladin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ManifestReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Downloader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Downloader.cs" />
+        <option value="$PROJECT_DIR$/MessageTypes.cs" />
+        <option value="$PROJECT_DIR$/Paladin.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Downloader.cs" />
+        <option value="$PROJECT_DIR$/ManifestReader.cs" />
       </list>
     </option>
   </component>
@@ -115,6 +119,8 @@
       <workItem from="1578061458536" duration="599000" />
       <workItem from="1578078749700" duration="1473000" />
       <workItem from="1578244869630" duration="2027000" />
+      <workItem from="1578264876311" duration="1200000" />
+      <workItem from="1578306865104" duration="454000" />
     </task>
     <servers />
   </component>
