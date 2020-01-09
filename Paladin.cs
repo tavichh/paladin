@@ -27,6 +27,7 @@ namespace Paladin
             switch (type)
             {
                 case MessageTypes.Info:
+                    Console.BackgroundColor = ConsoleColor.Blue;
                     Console.ForegroundColor = ConsoleColor.White;
                     break;
                 case MessageTypes.Warning:
@@ -36,10 +37,10 @@ namespace Paladin
                     Console.ForegroundColor = ConsoleColor.Red;
                     break;
                 case MessageTypes.None:
+                    Console.BackgroundColor = ConsoleColor.Black;
                     Console.ForegroundColor = ConsoleColor.Gray;
                     break;
             }
-
             Console.WriteLine(message);
         }
     }

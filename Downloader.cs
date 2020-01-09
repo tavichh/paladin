@@ -27,8 +27,8 @@ namespace Paladin
                 var current = Array.IndexOf(lines, line);
                 Console.WriteLine($"[{current+1}/{lines.Length}]: Downloading from {line}...");
                 Download(line);
-                if(current==lines.Length)
-                    Console.WriteLine("Download finished! You may exit Paladin!");
+                if(current+1==lines.Length)
+                    Paladin.Print("Download finished! You may exit Paladin!",MessageTypes.Info);
             }
         }
     }

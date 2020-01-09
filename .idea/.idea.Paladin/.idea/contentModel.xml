@@ -10,7 +10,7 @@
       <e p="ManifestReader.cs" t="Include" />
       <e p="MessageTypes.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
+        <e p="Release" t="Include">
           <e p="netcoreapp3.0" t="Include">
             <e p="Paladin.AssemblyInfo.cs" t="Include" />
           </e>
