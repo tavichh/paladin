@@ -9,10 +9,12 @@
       <change afterPath="$PROJECT_DIR$/../Rusty RPG/.idea/.idea.Rusty RPG/.idea/indexLayout.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Rusty RPG/.idea/.idea.Rusty RPG/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change afterPath="$APPLICATION_HOME_DIR$/plugins/spy-js/server/node_modules/multi-stage-sourcemap/.idea/multi-stage-sourcemap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Paladin/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paladin/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Paladin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Paladin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Downloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Downloader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ManifestReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ManifestReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paladin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Paladin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Paladin.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
@@ -38,9 +40,9 @@
       <list>
         <option value="$PROJECT_DIR$/MessageTypes.cs" />
         <option value="$PROJECT_DIR$/Paladin.cs" />
-        <option value="$PROJECT_DIR$/Downloader.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/ManifestReader.cs" />
+        <option value="$PROJECT_DIR$/Downloader.cs" />
       </list>
     </option>
   </component>
@@ -120,7 +122,8 @@
       <workItem from="1578244869630" duration="2027000" />
       <workItem from="1578264876311" duration="1200000" />
       <workItem from="1578306865104" duration="454000" />
-      <workItem from="1578583216464" duration="727000" />
+      <workItem from="1578583216464" duration="2691000" />
+      <workItem from="1578592561868" duration="313000" />
     </task>
     <servers />
   </component>

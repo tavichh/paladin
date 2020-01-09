@@ -19,7 +19,7 @@ namespace Paladin
             Print(" T H E    M A N I F E S T    D R I V E N     F I L E    D O W N L O A D E R", MessageTypes.None);
             Print("|+-------------------------------------------------------------------------+|", MessageTypes.None);
             Print("", MessageTypes.None);
-            ManifestReader.CheckManifest("Paladin.manifest");
+            ManifestReader.CheckManifest("paladin.manifest");
         }
 
         public static void Print(string message, MessageTypes type)

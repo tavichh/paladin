@@ -8,7 +8,7 @@ namespace Paladin
         static string manifest;
         public static void CheckManifest(string fileName)
         {
-            var exists = File.Exists("Paladin.manifest");
+            var exists = File.Exists("paladin.manifest");
             if (exists == false)
             {
                 Console.WriteLine(
@@ -37,15 +37,20 @@ namespace Paladin
             }
             if (exists)
             {
-                Console.WriteLine("Paladin.manifest has been detected! You can press 'x' to remove the file or 'e' to load!");
+                Console.WriteLine("paladin.manifest has been detected!");
+                Console.WriteLine("You can press 'x' to delete the file!");
+                Console.WriteLine("You can press 'e' to load the file!");
                 var key = Console.ReadKey();
                 if (key.Key == ConsoleKey.X)
                 {
                     File.Delete("Paladin.manifest");
                     Paladin.Print("Deleted manifest file!",MessageTypes.Info);
-                    CheckManifest("Paladin.manifest");
+                    CheckManifest("paladin.manifest");
                 }
-                else if (key.Key == ConsoleKey.E) { }
+                else if (key.Key == ConsoleKey.E)
+                {
+                    Downloader.DownloadAllManifestContents(manifest);
+                }
             }
         }
     }

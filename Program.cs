@@ -1,6 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Net;
 
 namespace Paladin
 {
@@ -8,7 +6,7 @@ namespace Paladin
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.ForegroundColor = ConsoleColor.Gray; // because fuck people's customization options
             Paladin.LoadPaladinSplash();
             Console.Read();
         }

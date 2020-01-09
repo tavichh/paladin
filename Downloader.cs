@@ -1,4 +1,6 @@
-﻿using System.Net;
+﻿using System;
+using System.IO;
+using System.Net;
 
 namespace Paladin
 {
@@ -8,12 +10,26 @@ namespace Paladin
         {
             using var client = new WebClient();
             Paladin.Print("Downloading the manifest file...",MessageTypes.Info);
-            client.DownloadFile(url, ($"Paladin.manifest"));
+            client.DownloadFile(url, "paladin.manifest");
         }
 
-        public static void DownloadManifestContents(string url)
+        private static void Download(string content)
         {
-            
+            var fileName = Path.GetFileName(content);
+            var client = new WebClient();
+            client.DownloadFile(content, fileName);
+        }
+        public static void DownloadAllManifestContents(string file)
+        {
+            var lines = File.ReadAllLines("paladin.manifest");
+            foreach (var line in lines)
+            {
+                var current = Array.IndexOf(lines, line);
+                Console.WriteLine($"[{current+1}/{lines.Length}]: Downloading from {line}...");
+                Download(line);
+                if(current==lines.Length)
+                    Console.WriteLine("Download finished! You may exit Paladin!");
+            }
         }
     }
 }
