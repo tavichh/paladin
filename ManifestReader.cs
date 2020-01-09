@@ -35,11 +35,17 @@ namespace Paladin
                         break;
                 }
             }
-            if (exists == true)
+            if (exists)
             {
-                Paladin.Print("PALADIN.MANIFEST DETECTED! DOWNLOADING...",
-                    MessageTypes.Warning);
-                Downloader.DownloadManifestContents(manifest);
+                Console.WriteLine("Paladin.manifest has been detected! You can press 'x' to remove the file or 'e' to load!");
+                var key = Console.ReadKey();
+                if (key.Key == ConsoleKey.X)
+                {
+                    File.Delete("Paladin.manifest");
+                    Paladin.Print("Deleted manifest file!",MessageTypes.Info);
+                    CheckManifest("Paladin.manifest");
+                }
+                else if (key.Key == ConsoleKey.E) { }
             }
         }
     }

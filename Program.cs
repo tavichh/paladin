@@ -12,8 +12,5 @@ namespace Paladin
             Paladin.LoadPaladinSplash();
             Console.Read();
         }
-
     }
-
-
 }

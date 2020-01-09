@@ -4,6 +4,7 @@
     <e p="C:\Users\thryc\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\thryc\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Paladin.446770430.00" t="ExcludeRecursive" />
     <e p="D:\Paladin" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Downloader.cs" t="Include" />
       <e p="ManifestReader.cs" t="Include" />
