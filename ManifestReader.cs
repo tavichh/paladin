@@ -13,8 +13,6 @@ namespace Paladin
             {
                 Console.WriteLine(
                     "Paladin works by using a GitHub gist to grab and download everything located in the URL.");
-                Console.WriteLine(
-                    "THEREFORE THE ");
                 Console.WriteLine("");
                 Console.WriteLine("URL to RAW GIST file");
                 Console.Write(">: ");
