@@ -1,6 +1,5 @@
 language: csharp
-solution: travis-mono-test.sln
-
+solution: Paladin.sln
 jobs:
   include:
     - dotnet: 2.1.502
